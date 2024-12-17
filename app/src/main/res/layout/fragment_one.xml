@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral80"
+    android:orientation="vertical"
+    tools:context=".fragments.FragmentOne">
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="textEmailAddress"
+        android:hint="Email:"
+        android:importantForAccessibility="yes"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#808080" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="editTextTextPassword"
+        android:hint="Password:"
+        android:importantForAccessibility="yes"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#808080" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/buttonFromFrag1ToFrag2Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="Login"
+        android:importantForAccessibility="yes"
+        android:padding="16dp"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <Button
+        android:id="@+id/buttonFromFrag1ToFrag3Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="Register"
+        android:importantForAccessibility="yes"
+        android:padding="16dp"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/material_dynamic_neutral80"
+    tools:context=".fragments.FragmentTwo">
+
+    <EditText
+        android:id="@+id/editTextEmailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="emailinput"
+        android:hint="Email:"
+        android:importantForAccessibility="yes"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#808080" />
+
+    <Space android:layout_width="match_parent" android:layout_height="16dp"/>
+
+
+    <EditText
+        android:id="@+id/editTextPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password:"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#808080"
+        android:importantForAccessibility="yes"
+        android:contentDescription="password input"/>
+
+    <Space android:layout_width="match_parent" android:layout_height="16dp"/>
+
+
+    <EditText
+        android:id="@+id/editTextConfirmPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm password:"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#808080"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Confirm password input"/>
+
+    <Space android:layout_width="match_parent" android:layout_height="16dp"/>
+
+
+    <EditText
+        android:id="@+id/editTextPhoneRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone:"
+        android:inputType="phone"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#808080"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Phone input"/>
+
+    <Space android:layout_width="match_parent" android:layout_height="30dp"/>
+
+
+    <Button
+        android:id="@+id/buttonFromFrag2ToFrag1Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Register button"/>
+</LinearLayout>

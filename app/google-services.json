@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "538817661072",
+    "project_id": "razhagani-61c1b",
+    "storage_bucket": "razhagani-61c1b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538817661072:android:b1e02b87c530f9dfed3015",
+        "android_client_info": {
+          "package_name": "com.example.l2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqWFr3FvD5YdGBY0TBwKvkBmCda8-l6Co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
